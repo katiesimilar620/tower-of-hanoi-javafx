@@ -1,0 +1,107 @@
+VBox {
+    -fx-background-color: linear-gradient(to bottom, #2c3e50, #34495e);
+}
+
+.title-label {
+    -fx-text-fill: #ecf0f1;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+.show-field {
+    -fx-pref-width: 45.6;
+    -fx-pref-height: 45.6;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 20px;
+    -fx-background-color: #2980b9;
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+Button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 15px;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-border-color: #2980b9;
+    -fx-cursor: hand;
+}
+
+Button:hover {
+    -fx-background-color: #2980b9;
+}
+
+.decrease-button, .increase-button {
+    -fx-background-color: #e67e22;
+    -fx-border-color: #d35400;
+}
+
+.decrease-button:hover, .increase-button:hover {
+    -fx-background-color: #d35400;
+}
+
+.start-button {
+    -fx-background-color: #2ecc71;
+    -fx-border-color: #27ae60;
+}
+
+.start-button:hover {
+    -fx-background-color: #27ae60;
+}
+
+.home-button {
+    -fx-background-color: #e74c3c;
+    -fx-border-color: #c0392b;
+    -fx-background-radius: 50%;
+    -fx-border-radius: 50%;
+    -fx-font-size: 18px;
+    -fx-text-fill: white;
+}
+
+.home-button:hover {
+    -fx-background-color: #c0392b;
+}
+
+.slider {
+    -fx-padding: 10px;
+}
+
+.slider .track {
+    -fx-background-color: #d3d3d3;
+    -fx-background-radius: 5px;
+    -fx-pref-height: 10px;
+}
+
+.slider .thumb {
+    -fx-background-color: #4CAF50;
+    -fx-background-radius: 50%;
+    -fx-pref-width: 20px;
+    -fx-pref-height: 20px;
+}
+
+.slider .thumb:hover {
+    -fx-background-color: #45a049;
+}
+
+.slider .thumb:pressed {
+    -fx-background-color: #388E3C;
+}
+
+.slider .filled-track {
+    -fx-background-color: #4CAF50;
+    -fx-background-radius: 5px;
+}
+
+.slider .axis {
+    -fx-tick-label-fill: #333333;
+    -fx-tick-length: 5px;
+    -fx-minor-tick-length: 3px;
+}
+
+.slider .axis-label {
+    -fx-text-fill: #333333;
+}

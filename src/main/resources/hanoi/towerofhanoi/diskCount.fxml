@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="792.8" prefWidth="1536.0" stylesheets="@styles/diskCount.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hanoi.towerofhanoi.controllers.DiskCountController">
+   <children>
+      <Button fx:id="handleHome" onAction="#handleHome" prefHeight="50.0" prefWidth="50.0" styleClass="home-button" stylesheets="@styles/diskCount.css" text="🏠">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label styleClass="title-label" stylesheets="@styles/diskCount.css" text="Disk Count">
+         <VBox.margin>
+            <Insets bottom="20.0" top="20.0" />
+         </VBox.margin>
+      </Label>
+      <Label fx:id="show" alignment="CENTER" styleClass="show-field" stylesheets="@styles/diskCount.css" text="2" />
+      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="20.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#decrease" styleClass="decrease-button" text="–" />
+            <Slider fx:id="slider" blockIncrement="1" majorTickUnit="1" max="8.0" min="2" minorTickCount="0" onMouseReleased="#onMouseReleased" snapToTicks="true" styleClass="styled-slider" value="2" />
+            <Button mnemonicParsing="false" onAction="#increase" styleClass="increase-button" text="+" />
+         </children>
+      </HBox>
+      <Button mnemonicParsing="false" onAction="#start" styleClass="start-button" stylesheets="@styles/diskCount.css" text="Start">
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+      </Button>
+   </children>
+</VBox>

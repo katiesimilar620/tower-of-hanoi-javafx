@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="792.8" prefWidth="1536.0" styleClass="anchor-pane" stylesheets="@styles/login.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hanoi.towerofhanoi.controllers.SavePageController">
+    <StackPane prefHeight="319.2" prefWidth="229.6" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <children>
+            <VBox alignment="CENTER" spacing="30" stylesheets="@styles/savepage.css">
+   
+                <VBox alignment="CENTER" spacing="20" styleClass="save-container" stylesheets="@styles/savepage.css">
+                    <padding>
+                        <Insets bottom="30" left="40" right="40" top="30" />
+                    </padding>
+   
+                    <Button layoutX="-13.0" layoutY="-6.0" onAction="#back" prefHeight="60.0" prefWidth="60.0" styleClass="home-button" stylesheets="@styles/savepage.css" text="⬅">
+                        <font>
+                            <Font size="24.0" />
+                        </font>
+                    </Button>
+   
+                    <Label styleClass="title-label" stylesheets="@styles/savepage.css" text="Save Page" />
+               <Pane>
+                  <children>
+         
+                          <Button fx:id="slot1Button" layoutX="30.0" layoutY="1.0" maxWidth="250.0" styleClass="save-button" stylesheets="@styles/savepage.css" text="Slot 1" />
+                     <Label fx:id="date1" alignment="CENTER_RIGHT" layoutX="125.0" layoutY="41.0" prefHeight="17.0" prefWidth="150.0" />
+                  </children>
+               </Pane>
+               <Pane>
+                  <children>
+         
+                          <Button fx:id="slot2Button" layoutX="30.0" layoutY="1.0" maxWidth="250.0" styleClass="save-button" stylesheets="@styles/savepage.css" text="Slot 2" />
+                     <Label fx:id="date2" alignment="CENTER_RIGHT" layoutX="125.0" layoutY="41.0" prefHeight="17.0" prefWidth="150.0" />
+                  </children>
+               </Pane>
+               <Pane>
+                  <children>
+         
+                          <Button fx:id="slot3Button" layoutX="30.0" layoutY="1.0" maxWidth="250.0" styleClass="save-button" stylesheets="@styles/savepage.css" text="Slot 3" />
+                     <Label fx:id="date3" alignment="CENTER_RIGHT" layoutX="125.0" layoutY="41.0" prefHeight="17.0" prefWidth="150.0" />
+                  </children>
+               </Pane>
+               <Label fx:id="message">
+                  <font>
+                     <Font size="14.0" />
+                  </font>
+               </Label>
+                </VBox>
+            </VBox>
+        </children>
+    </StackPane>
+</AnchorPane>
