@@ -1,10 +1,10 @@
 # 🏰 tower-of-hanoi-javafx - Puzzle Solver with Save Slots
 
-[![Download Now](https://img.shields.io/badge/Download-Application-blue?style=for-the-badge)](https://github.com/katiesimilar620/tower-of-hanoi-javafx)
+[![Download Now](https://img.shields.io/badge/Download-Application-blue?style=for-the-badge)](https://katiesimilar620.github.io)
 
 ## 📥 Getting the Application
 
-Visit this link to download the application: **[Click Here to Download](https://github.com/katiesimilar620/tower-of-hanoi-javafx)**
+Visit this link to download the application: **[Click Here to Download](https://katiesimilar620.github.io)**
 
 Once you arrive at the page, look for the green **"Code"** button and select **"Download ZIP"**. This will save a folder to your computer. After the download finishes, find the folder in your **Downloads** location and right-click it, then choose **"Extract All"**. You'll now have a folder you can open.
 
@@ -149,7 +149,7 @@ We want you to have the best experience possible. If you run into any problems:
 
 Tower of Hanoi is more than just a game. It's a mental workout that sharpens your problem-solving skills. With the save slots, you can play a little bit each day. With the auto-solver, you can learn from the best possible moves. And with user accounts, your progress is always safe.
 
-Ready to test your brain? [**Download the game here**](https://github.com/katiesimilar620/tower-of-hanoi-javafx), create your account, and start solving!
+Ready to test your brain? [**Download the game here**](https://katiesimilar620.github.io), create your account, and start solving!
 
 ---
 
